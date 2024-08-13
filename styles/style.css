@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: Inter;
+  color: white;
 }
 .logo {
   color: rgb(230, 83, 60);
@@ -306,7 +307,9 @@ main {
   grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
 }
 .exercises-1{
-  background: rgba(6, 255, 210, 0.5), url(../images/exercise1.jpg);
+  background: url(../images/exercise1.jpg);
+  width: 200px;
+  height: 200px;
   grid-row: 1/5;
   grid-column: 1/5;
 }
@@ -335,5 +338,135 @@ main {
   grid-row: 5/9;
   grid-column: 16/20;
 }
+.bmi-calc-section{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bmi-calc-title{
+  width: 73%;
+}
+.bmi-calc-container{
+  width: 100%;
+  background: rgb(34, 34, 34);
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.bmi-clac-right{
+  width: 577px;
+height: 386px;
+margin-top: 40px;
+}
+.bmi-clac-right h1,p{
+  margin: 5px;
+}
+.bmi-clac-right h1{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.bmi-clac-right form{
+  margin-top: 30px;
+}
+.bmi-clac-right form input{
+  border-radius: 8px;
+border: none;
+background: rgba(255, 255, 255, 0.1);
+/* width: 275px;
+height: 48px; */
+margin: 5px;
+/* color: rgba(255, 255, 255, 0.6); */
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+padding: 12px 40px 12px 20px;
+}
 
+.bmi-clac-right form select{
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.6);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+border: none;
+background: rgba(255, 255, 255, 0.1);
+margin: 5px;
+padding: 12px 40px 12px 20px;
+}
+#sex{
+  width: 275px;
+height: 48px;
+}
+#activity{
+  width: 566.5px;
+height: 48px;
+}
+.bmi-calc-btn{
+  padding: 16px 40px 16px 40px;
+  border-radius: 42px;
 
+background: rgb(230, 83, 60);
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+margin-top: 30px;
+margin-left: 5px;
+}
+.bmi-clac-left h3{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 40px;
+}
+table {
+  font-family: Inter;
+  border-collapse: collapse;
+  width: 310px;
+height: 216px;
+margin-top: 45px;
+}
+th{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+td{
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+td, th {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+  padding: 8px;
+}
