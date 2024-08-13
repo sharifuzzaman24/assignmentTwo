@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+}
+.logo {
+  color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 752;
+  line-height: 112%;
+  letter-spacing: 0%;
+}
+.primary-title {
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+  font-weight: 846;
+  line-height: 112%;
+  letter-spacing: 0%;
+}
+.primary-paragraph {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  font-weight: 376;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+}
+.primary-btn {
+  border-radius: 39px;
+  border: none;
+  background: rgb(230, 83, 60);
+  padding: 15px 37px 15px 37px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 564;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+.secondary-btn {
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 39px;
+  background: none;
+  padding: 15px 37px 15px 37px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 564;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+.header-section {
+  background: linear-gradient(
+    360deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 1000%
+  );
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.nav {
+  width: 73%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 53px;
+}
+.nav-logo {
+  font-size: 33px;
+}
+.nav-menu {
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+}
+.nav-menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-menu ul li {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 376;
+  line-height: 112%;
+  letter-spacing: 0%;
+  list-style: none;
+  padding: 8px 20px;
+
+
+}
+.home {
+  border-radius: 39px;
+  background: rgb(230, 83, 60);
+}
+.hero-section {
+  width: 73%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.hero-content {
+  width: 564px;
+  height: 413px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero-title,
+.hero-paragraph,
+.hero-btn-container {
+  width: 70%;
+}
+.hero-paragraph,
+.hero-btn-container {
+  margin-top: 26px;
+}
+.hero-img-container {
+  width: 328px;
+  height: 545px;
+  background: url(../images/hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-right{
+  position: relative;
+}
+.hero-card {
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+
+  backdrop-filter: blur(18px);
+  background: rgba(48, 48, 48, 0.54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.hero-card1 {
+  width: 181px;
+  height: 92px;
+  flex-direction: column;
+  left: 220px;
+  top: 120px;
+}
+.hero-card2 {
+  width: 193px;
+  height: 90px;
+  left: -100px;
+  top: 390px;
+}
+.hero-card h3 {
+  color: rgb(255, 255, 255);
+  font-size: 37px;
+  font-weight: 846;
+  line-height: 37px;
+  letter-spacing: 1px;
+}
+.hero-card p {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+  font-weight: 376;
+  line-height: 18px;
+  letter-spacing: 1px;
+}
+.card2-circle {
+  width: 38px;
+  height: 38px;
+  background: rgb(230, 83, 60);
+  border-radius: 50%;
+  margin-right: 10px;
+}
+main {
+  background: rgb(0, 0, 0);
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.habits {
+  width: 73%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 94px;
+}
+.habits-head {
+  width: 60%;
+  text-align: center;
+}
+.habits-head p {
+  margin-top: 10px;
+}
+.habits-foot {
+  width: 100%;
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.habits-foot-box {
+  width: 217px;
+  height: 257px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.habits-foot-box .img {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.habits-foot-box h3 {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 476;
+  line-height: 112%;
+  letter-spacing: 0%;
+  margin-top: 20px;
+}
+.habits-foot-box p {
+  margin-top: 3px;
+}
+.box1 .img {
+  background: url(../images/image\ 3.png);
+}
+.box2 .img {
+  background: url(../images/image\ 2.png);
+}
+.box3 .img {
+  background: url(../images/image\ 4.png);
+}
+.box4 .img {
+  background: url(../images/image\ 5.png);
+}
+.run-extra-section {
+  width: 73%;
+}
+.run-extra-container {
+  border-radius: 18px;
+  margin-top: 94px;
+
+  background: rgb(34, 34, 34);
+  width: 100%;
+  height: 348px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.run-extra-left {
+  width: 416px;
+}
+.run-extra-left h1 {
+  font-size: 44px;
+  margin-bottom: 12px;
+}
+.run-extra-left p {
+  margin-bottom: 32px;
+}
+
+.run-extra-right {
+  width: 344px;
+  height: 293px;
+  border-radius: 18px;
+  background: url(../images/run.jpg);
+}
+.exercises-section{
+    width: 73%;
+}
+.exercises-section-container{
+    width: 100%;
+    margin-top: 94px;
+}
+.exercises-title{
+    width: 630px;
+}
+.exercises-title p{
+    margin-top: 12px;
+}
+.exercises-main{
+  width: 100%;
+  height: 456px;
+  margin-top: 55px;
+  display: grid;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+.exercises-1{
+  background: rgba(6, 255, 210, 0.5), url(../images/exercise1.jpg);
+  grid-row: 1/5;
+  grid-column: 1/5;
+}
+.exercises-2{
+  background: url(../images/exercise2.png);
+  grid-row: 1/5;
+  grid-column: 5/14;
+}
+.exercises-3{
+  background: url(../images/exercise3.png);
+  grid-row: 1/5;
+  grid-column: 14/20;
+}
+.exercises-4{
+  background: url(../images/exercise4.png);
+  grid-row: 5/9;
+  grid-column: 1/10;
+}
+.exercises-5{
+  background: url(../images/exercise5.jpg);
+  grid-row: 5/9;
+  grid-column: 10/16;
+}
+.exercises-6{
+  background: url(../images/exercise6.jpg);
+  grid-row: 5/9;
+  grid-column: 16/20;
+}
+
+
